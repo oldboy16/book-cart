@@ -10,34 +10,36 @@
 </head>
 <body>
     <div class="hero__wrap">
+       <div class="container">
         <form onsubmit="fnPost(event)" class="form-control w-50" action="#">
-            <input class="form-control mb-3" type="text" placeholder="img" name="img">
-            <input class="form-control mb-3" type="text" placeholder="title" name="title">
-            <input class="form-control mb-3" type="text" placeholder="price" name="price">
-            <button type="submit" class="btn btn-primary">add +</button>
-        </form>
-        <ul class="book__list">
-    
-        </ul>
-    
-        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <form onsubmit="fnUpdate(event)" class="form-control" action="#">
-                    <input class="form-control mb-3 img" type="text" placeholder="img" name="img">
-                    <input class="form-control mb-3 title" type="text" placeholder="title" name="title">
-                    <input class="form-control mb-3 price" type="text" placeholder="price" name="price">
-                    <button data-bs-dismiss="modal" type="submit" class="btn btn-primary">update +</button>
-                </form>
-            </div>
+          <input class="form-control mb-3" type="text" placeholder="img" name="img">
+          <input class="form-control mb-3" type="text" placeholder="title" name="title">
+          <input class="form-control mb-3" type="text" placeholder="price" name="price">
+          <button type="submit" class="btn btn-primary">add +</button>
+      </form>
+      <ul class="book__list">
+  
+      </ul>
+  
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+              <form onsubmit="fnUpdate(event)" class="form-control" action="#">
+                  <input class="form-control mb-3 img" type="text" placeholder="img" name="img">
+                  <input class="form-control mb-3 title" type="text" placeholder="title" name="title">
+                  <input class="form-control mb-3 price" type="text" placeholder="price" name="price">
+                  <button data-bs-dismiss="modal" type="submit" class="btn btn-primary">update +</button>
+              </form>
           </div>
         </div>
       </div>
+    </div>
+       </div>
     </div>
 </body>
 <script src="./js/main.js"></script>
